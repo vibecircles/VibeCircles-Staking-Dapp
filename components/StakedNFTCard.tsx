@@ -68,6 +68,7 @@ export const StakedNFTCard: React.FC<StakedNFTCardProps> = ({ tokenId, refetchSt
                     refetchStakedInfo();
                     alert("Withdrawn!");
                 }}
+                className="withdraw-button"
                 style={{
                     border: "none",
                     backgroundColor: "#e74c3c",
@@ -81,13 +82,15 @@ export const StakedNFTCard: React.FC<StakedNFTCardProps> = ({ tokenId, refetchSt
                     transition: "background-color 0.2s ease",
                     marginTop: "auto"
                 }}
-                onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = "#c0392b";
-                }}
-                onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = "#e74c3c";
-                }}
-            >Withdraw</TransactionButton>
+            >
+                Withdraw
+            </TransactionButton>
+
+            <style jsx>{`
+                .withdraw-button:hover {
+                    background-color: #c0392b !important;
+                }
+            `}</style>
         </div>
     )
 };
