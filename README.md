@@ -35,13 +35,6 @@ or
 yarn install
 ```
 
-
-### Video Tutorial
-
-For a detailed setup and deployment guide, watch our video tutorial on YouTube:
-
-[How to Build an NFT Staking App - Stake ERC-721 and Earn ERC-20](https://youtu.be/IsE4DYDuC_0)
-
 ### Setting Environment Variables
 
 Set the following variables in the `.env` file
@@ -52,15 +45,6 @@ Set the following variables in the `.env` file
 
 Set your ERC-721 NFT, ERC-20 Token, and ERC-721 Staking smart contracts in `utils/contracts.ts`
 
-
-## Learn More
-
-To learn more about thirdweb and Next.js, take a look at the following resources:
-
-- [thirdweb docs Documentation](https://portal.thirdweb.com) - 
-- [thirdweb dashboard](https://thirdweb.com)
-
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
 
 ## Join our Discord!
 
